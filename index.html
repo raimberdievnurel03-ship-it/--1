@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAFE MENU | Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>☕ CAFE MENU</h1>
+  <p>Даамдуу тамактар — бир жерде</p>
+  <button id="openCart">🛒 Себет (<span id="count">0</span>)</button>
+</header>
+
+<section class="hero">
+  <h2>Кош келиңиз!</h2>
+  <p>Сүйүктүү тамагыңызды тандаңыз</p>
+</section>
+
+<main>
+  <div class="categories">
+    <button data-category="all">Баары</button>
+    <button data-category="food">Тамактар</button>
+    <button data-category="pizza">Пицца</button>
+    <button data-category="burger">Бургер</button>
+    <button data-category="drink">Суусундуктар</button>
+  </div>
+
+  <input id="search" placeholder="🔍 Тамак издөө...">
+
+  <div class="products" id="products"></div>
+</main>
+
+<div class="cart" id="cart">
+  <div class="cart-box">
+    <button id="closeCart" class="close">✕</button>
+    <h2>🛒 Менин себетим</h2>
+    <div id="cartItems"></div>
+    <h3>Жалпы: <span id="total">0</span> сом</h3>
+    <button id="order" class="order-btn">WhatsApp аркылуу заказ берүү</button>
+  </div>
+</div>
+
+<footer>
+  <h2>CAFE MENU</h2>
+  <p>Даам менен сапат — биздин артыкчылык!</p>
+  <p>© 2026 Бардык укуктар корголгон</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
